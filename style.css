@@ -69,7 +69,26 @@ footer{
 .tall{
   min-height: 40vh;
 }
-
+.txt{
+  font-size: xx-large;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.temImg{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+@media (max-width: 450px) { 
+.search {
+    width: 72vw; 
+}
+}
+ @media (max-width: 2012px) { 
+    header{ 
+      height:122px;
+    } 
+    }
+  
 
 
 @media (max-width: 1550px) { 
@@ -103,17 +122,5 @@ header{
     margin: 12px;
   }
 }
-.txt{
-  font-size: xx-large;
-  padding-top: 10px;
-  padding-bottom: 20px;
-}
-.temImg{
-  padding-left: 50px;
-  padding-bottom: 20px;
-}
-@media (max-width: 450px) { 
-.search {
-    width: 72vw; 
-}
-}
+
+
